@@ -15,12 +15,16 @@ public class Weapon {
         uses = iUses;
     }
     
-    float attack(){
+    public float attack(){
         if(uses > 0){
             uses--;
             return power;
         }
         return 0;
+    }
+    
+    public boolean discard(){
+        return Dice.discardElement(uses);
     }
     
     public String toString(){
