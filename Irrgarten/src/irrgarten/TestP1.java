@@ -49,7 +49,7 @@ public class TestP1 {
          System.out.println(arma2.attack());
          
          
-         System.out.println();
+         System.out.println(Dice.weaponPower());
          
          System.out.println();
          

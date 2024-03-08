@@ -13,8 +13,8 @@ public class Dice {
     private static final int  WEAPONS_REWARD = 2;                                  // (numero máximo de armas recibidas al ganar un combate)
     private static final int SHIELDS_REWARD = 3 ;                                     // (numero máximo de escudos recibidos al ganar un combate)
     private static final int HEALTH_REWARD = 5 ;                                      // (numero máximo de unidades de salud recibidas al ganar un combate)
-    private static final float MAX_ATTACK = 3.0f;                                      // (máxima potencia de las armas)
-    private static final float  MAX_SHIELD = 2.0f;                                       // (máxima potencia de los escudos)
+    private static final int MAX_ATTACK = 3;                                      // (máxima potencia de las armas)
+    private static final int  MAX_SHIELD = 2;                                       // (máxima potencia de los escudos)
     
     private static final Random generator = new Random();
     
