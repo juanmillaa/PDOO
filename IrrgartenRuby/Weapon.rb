@@ -1,5 +1,5 @@
 module Irrgarten
-  def class Weapon::
+  class Weapon
     def initialize(iPower, iUses)
       @power = iPower
       @uses = iUses

@@ -1,5 +1,5 @@
 module Irrgarten
-  def class Shield::
+  class Shield
     def initialize(iProtection, iUses)
       @protection = iProtection
       @uses = iUses

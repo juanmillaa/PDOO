@@ -1,5 +1,5 @@
 module Irrgarten
-  def class GameState::
+  class GameState
 
     def initialize(iLab, iPlay, iMons, iCurr, iWin, iLog)
       @labyrinthv = iLab

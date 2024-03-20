@@ -1,5 +1,5 @@
 module Irrgarten
-  def class Dice::
+  class Dice
 
     @@MAX_USES = 5
     @@MAX_INTELLIGENCE = 10.0
@@ -7,8 +7,8 @@ module Irrgarten
     @@MAX_STRENGTH = 10.0                              
     @@RESURRECT_PROB = 0.3                              
     @@WEAPONS_REWARD = 2                                 
-    @@SHIELDS_REWARD = 3                                  
-    @@HEALTH_REWARD = 5                                       
+    @@SHIELDS_REWARD = 3                                 
+    @@HEALTH_REWARD = 5                                        
     @@MAX_ATTACK = 3.0                                     
     @@MAX_SHIELD = 2.0   
 
@@ -67,7 +67,7 @@ module Irrgarten
     end
 
 
-    def self.discardElement(int usesLeft)
+    def self.discardElement(usesLeft)
       if(usesLeft == 0) then 
         estado = true
       elsif(usesLeft == @@MAX_USES) then
